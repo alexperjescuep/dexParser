@@ -1,0 +1,66 @@
+CASE
+	when OperatorIdentifier in ('388141') then "Chelmsford Star - Kings Road"
+   	when OperatorIdentifier in ('256849') then "Chelmsford Star - Ingatestone"
+    when OperatorIdentifier in ('277364') then "Chelmsford Star - Writtle"
+	when OperatorIdentifier in ('277365') then "Chelmsford Star - Challice Lane"
+   	when OperatorIdentifier in ('295069') then "Chelmsford Star - Cressing"
+    when OperatorIdentifier in ('295070') then "Chelmsford Star - Havengore"
+	when OperatorIdentifier in ('295071') then "Chelmsford Star - Blackmore"
+   	when OperatorIdentifier in ('295072') then "Chelmsford Star - Tilbury"
+    when OperatorIdentifier in ('298537') then "Chelmsford Star - Hawkwell"
+	when OperatorIdentifier in ('298538') then "Chelmsford Star - West Road"
+   	when OperatorIdentifier in ('298539') then "Chelmsford Star - Hullbridge"
+    when OperatorIdentifier in ('298540') then "Chelmsford Star - Bocking"
+    when OperatorIdentifier in ('298541') then "Chelmsford Star - Duke Street"
+	when OperatorIdentifier in ('298542') then "Chelmsford Star - Stamford Lee Hope"
+   	when OperatorIdentifier in ('298543') then "Chelmsford Star - Beehive Lane"
+    when OperatorIdentifier in ('298544') then "Chelmsford Star - East Tilbury"
+    when OperatorIdentifier in ('304410') then "Chelmsford Star - Torquay Road"
+	when OperatorIdentifier in ('304411') then "Chelmsford Star - Woodland Avenue"
+   	when OperatorIdentifier in ('317865') then "Chelmsford Star - Broomfield"
+	when OperatorIdentifier in ('317865') then "Chelmsford Star - Broomfield"
+
+    when OperatorIdentifier in ('350952') then "Bannerman - Tore Service Station"
+	when OperatorIdentifier in ('350581') then "Bannermans - Kens Garage"
+
+	when OperatorIdentifier in ('350589') then "McColl's - Basingstoke"    
+	when OperatorIdentifier in ('322531') then "McColl's - Kempston"
+	when OperatorIdentifier in ('322521') then "McColl's - Shilbottle"
+	when OperatorIdentifier in ('317868') then "McColl's - Strood"
+	when OperatorIdentifier in ('317866') then "McColl's - Caithness"
+	when OperatorIdentifier in ('304409') then "McColl's - Bracknell"
+    when OperatorIdentifier in ('298536') then "McColl's - Ashford"
+    when OperatorIdentifier in ('298535') then "McColl's - Ferndown"
+	when OperatorIdentifier in ('304408') then "McColl's - Gale Lane"    
+
+    when OperatorIdentifier in ('304416') then "Russell's Food & Wine - Crumlin Village"
+	when OperatorIdentifier in ('304414') then "Russell's Food & Wine - Donaghadee"
+	when OperatorIdentifier in ('304413') then "Russell's Food & Wine - Castlereagh"
+	when OperatorIdentifier in ('295079') then "Russell's Food & Wine - High St, Newtownards"
+	when OperatorIdentifier in ('295078') then "Russell's Food & Wine - Woodstock Rd"
+	when OperatorIdentifier in ('295077') then "Russell's Food & Wine - Sandy Row"
+	when OperatorIdentifier in ('295076') then "Russell's Food & Wine - Cairncastle Rd"      
+
+	when OperatorIdentifier in ('322520') then "Co-op - Bosham"
+	when OperatorIdentifier in ('261174') then "Co-op - Madeira Rd, Bournemouth"
+	when OperatorIdentifier in ('261170') then "Co-op - Bradford on Avon"           
+
+	when OperatorIdentifier in ('261191') then "Iceland - Talbot Street, Dublin"
+	when OperatorIdentifier in ('256096') then "Iceland - Belfast"
+	when OperatorIdentifier in ('228988') then "Iceland - Galway"
+	when OperatorIdentifier in ('216243') then "Iceland - Tallaght"         
+
+	when OperatorIdentifier in ('261167') then "Tamworth Co-op - Polesworth" 
+    when OperatorIdentifier in ('277363') then "Tamworth Co-op - Burton on Trent"
+	when OperatorIdentifier in ('228994') then "Tamworth Co-op - Church St"
+	when OperatorIdentifier in ('228991') then "Tamworth Co-op - Wood End"    
+
+    when OperatorIdentifier in ('228995') then "Nisa - Egham"
+
+	when OperatorIdentifier in ('277362') then "Bradley's Supermarket"
+    when OperatorIdentifier in ('295073') then "Buggsi Supermarket"
+	when OperatorIdentifier in ('277375') then "Boz Supermarkets"
+	when OperatorIdentifier in ('216246') then "Lewes - Free Coffee"
+
+    else OperatorIdentifier
+END
